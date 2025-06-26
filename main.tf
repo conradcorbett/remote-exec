@@ -1,14 +1,3 @@
-terraform { 
-  cloud { 
-    
-    organization = "SeeSquared" 
-
-    workspaces { 
-      name = "remote-exec" 
-    } 
-  } 
-}
-
 provider "aws" {
   region = "us-east-1"
 }
